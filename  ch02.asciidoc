@@ -6,3 +6,5 @@
 === Transactions
 === Contracts
 === Mining
+
+=== Eth / Web 3 / Learning your way around the console

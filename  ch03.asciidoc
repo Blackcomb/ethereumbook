@@ -1,6 +1,15 @@
 [[ch03_contract_programming]]
 == Contract Programming
+- Read Operations
+- Write Operations
+- Gas
+- Application Binary Interface
+
 
 === Solidity, Serpent, LLL
 === Hello World
+- Basic read only contract
+- Basic add / remove registry
+- Basic fund disbursement
+- Basic Ticket issuance/redemption
 === Testing Contracts

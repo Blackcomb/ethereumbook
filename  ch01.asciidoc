@@ -1,4 +1,18 @@
 [[ch01_intro_decentralized_applications]]
 == Introduction
 
+Blockchains as a new paradigm. Based on decades of research and experimentation.
+- Cryptographic Hash Functions
+- Digital Signatures
+- Public Key Crypto
+- P2P Networking
+- Consensus
+- Game theory
+
+Put these together and you have blockchain.
+
 === Decentralized Applications
+- Bitcoin with a scripting language for complex transactions
+- As often in software engineering, strive to generalize
+- The Ethereum Virtual Machine
+- Computation mechanisms of the network
