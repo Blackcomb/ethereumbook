@@ -16,3 +16,5 @@ Put these together and you have blockchain.
 - As often in software engineering, strive to generalize
 - The Ethereum Virtual Machine
 - Computation mechanisms of the network
+-- Ever node maintains the state of the world, which they audit
+-- Low total processing power

@@ -7,6 +7,31 @@
 
 
 === Solidity, Serpent, LLL
+
+### Block and Transaction Properties
+
+ - `block.coinbase` (`address`): current block miner's address
+ - `block.difficulty` (`uint`): current block difficulty
+ - `block.gaslimit` (`uint`): current block gaslimit
+ - `block.number` (`uint`): current block number
+ - `block.blockhash` (`function(uint) returns (bytes32)`): hash of the given block
+ - `block.timestamp` (`uint`): current block timestamp
+ - `msg.data` (`bytes`): complete calldata
+ - `msg.gas` (`uint`): remaining gas
+ - `msg.sender` (`address`): sender of the message (current call)
+ - `msg.sig` (`bytes4`): first four bytes of the calldata (i.e. function identifier)
+ - `msg.value` (`uint`): number of wei sent with the message
+ - `now` (`uint`): current block timestamp (alias for `block.timestamp`)
+ - `tx.gasprice` (`uint`): gas price of the transaction
+ - `tx.origin` (`address`): sender of the transaction (full call chain)
+
+### Cryptographic Functions
+
+ - `sha3(...) returns (bytes32)`: compute the Ethereum-SHA-3 hash of the (tightly packed) arguments
+ - `sha256(...) returns (bytes32)`: compute the SHA-256 hash of the (tightly packed) arguments
+ - `ripemd160(...) returns (bytes20)`: compute RIPEMD-160 hash of the (tightly packed) arguments
+ - `ecrecover(bytes32, byte, bytes32, bytes32) returns (address)`: recover public key from elliptic curve signature - arguments are (data, v, r, s)
+
 === Hello World
 - Basic read only contract
 - Basic add / remove registry
