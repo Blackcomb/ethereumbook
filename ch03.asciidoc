@@ -37,7 +37,6 @@ Functions and state variables can be specified as being `public`, `internal` or 
  - `tx.origin` (`address`): sender of the transaction (full call chain)
 
 ### Cryptographic Functions
-
  - `sha3(...) returns (bytes32)`: compute the Ethereum-SHA-3 hash of the (tightly packed) arguments
  - `sha256(...) returns (bytes32)`: compute the SHA-256 hash of the (tightly packed) arguments
  - `ripemd160(...) returns (bytes20)`: compute RIPEMD-160 hash of the (tightly packed) arguments
@@ -49,5 +48,3 @@ Functions and state variables can be specified as being `public`, `internal` or 
 - Basic fund disbursement
 - Basic Ticket issuance/redemption
 === Testing Contracts
-
-=== Contracts - The Backend for Decentralized Applications
