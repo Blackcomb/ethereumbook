@@ -10,10 +10,14 @@
 - Public Ethereum Network (Production)
 
 - Eth TestRPC - https://github.com/ConsenSys/eth-testrpc - Used for testing contracts
+- Ethersim - https://github.com/iurimatias/EtherSim - EtherSim is a Limited Ethereum RPC simulator for testing and development purposes
+
 - Truffle (https://github.com/consensys/truffle) - A development framework for Ethereum
 - https://medium.com/@timothyjcoulter/truffle-tricks-for-ethereum-development-dispelling-8-myths-first-impressions-880f66bf3320
 - Dapple (https://github.com/MakerDAO/dapple) - A tool for contract system developers.
 - Embark (https://github.com/iurimatias/embark-framework) - Framework for Ethereum DApps
+
+- Spore (https://github.com/mhhf/spore) - Simple package manager for Ethereum
 
 ==== IDEs
 - Atom

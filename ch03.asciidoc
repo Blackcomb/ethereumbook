@@ -49,3 +49,5 @@ Functions and state variables can be specified as being `public`, `internal` or 
 - Basic fund disbursement
 - Basic Ticket issuance/redemption
 === Testing Contracts
+
+=== Contracts - The Backend for Decentralized Applications
