@@ -1,0 +1,23 @@
+[[ch06_advanced_contracts]]
+== Advanced Contracts
+- Contracts as First Class Citizens
+-- Whatever you can do with a private key, a contract can do (send ether, create a contract, etc.)
+
+- Modelling contract data
+
+- Contract interactions
+-- Finite state machine of contracts
+
+== Examples of advanced contracts
+- Advanced Registry
+- Crowd funder
+- Colored coin
+- Basic ticket issuance extended to pay content originators
+- Escrow
+
+== Oracles
+
+
+=== Web Components
+- Web3
+- JSON Rpc
