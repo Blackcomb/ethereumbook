@@ -7,4 +7,8 @@ contract GuestBook {
   function setEntry(string guestBookEntry) {
     entryLog[msg.sender] = guestBookEntry;
   }
+
+  function getMyEntry() constant returns (string) {
+    return entryLog[msg.sender];
+  }
 }
