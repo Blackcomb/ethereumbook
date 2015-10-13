@@ -15,6 +15,9 @@
 - Basic ticket issuance extended to pay content originators
 - Escrow
 
+== Oracles
+
+
 === Web Components
 - Web3
 - JSON Rpc
